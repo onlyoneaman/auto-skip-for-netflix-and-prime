@@ -1,7 +1,7 @@
 {
   "name": "netflix-prime-ott-auto-skip",
-  "version": "1.0.1",
-  "description": "Auto Skip Intro, Recaps for Prime, Netflix and OTTs",
+  "version": "1.1.1",
+  "description": "Auto Skip Intro, Recaps for Prime, Netflix, JioCinema and OTTs",
   "source": "src/content_script.js",
   "main": "dist/bundle_new.js",
   "scripts": {

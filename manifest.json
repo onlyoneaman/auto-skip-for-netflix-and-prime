@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Netflix Prime OTT Auto Skipper",
+  "name": "Netflix Prime JioCinema OTT Auto Skipper",
   "author": "Aman Kumar",
-  "version": "1.0.1",
-  "description": "Auto Skip Intro, Recaps for Prime, Netflix and OTTs",
+  "version": "1.1.1",
+  "description": "Auto Skip Intro, Recaps for Prime, Netflix, JioCinema and OTTs",
   "icons": {
     "16": "src/assets/512.png",
     "48": "src/assets/512.png"
@@ -11,6 +11,7 @@
   "content_scripts": [
     {
       "matches": [
+        "*://*.jiocinema.com/*",
         "*://*.hotstar.com/*",
         "*://*.netflix.com/*",
         "*://*.netflix.co.uk/*",

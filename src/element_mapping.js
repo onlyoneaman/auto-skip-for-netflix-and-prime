@@ -7,6 +7,7 @@ import {
   NETFLIX,
   PRIME, HOTSTAR, HOTSTAR_SKIP_INTRO, HOTSTAR_NEXT_EPISODE,
 } from "./utils/i18n";
+import { JIOCINEMA } from "./utils/i18n";
 
 const locale = memoizedLocale("locale");
 
@@ -105,4 +106,11 @@ export const elementMapping = [
     xpath: true,
     ...translateLocale(NEXT_EPISODE),
   },
+  {
+    type: JIOCINEMA,
+    skipEvent: SKIP_INTRO,
+    selector: `//*[text()="${translateLocale(SKIP_INTRO).translatedText}"]`,
+    xpath: true,
+    ...translateLocale(SKIP_INTRO),
+  }
 ];

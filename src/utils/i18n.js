@@ -3,13 +3,14 @@ export const SKIP_RECAP = "skip_recap";
 export const NEXT_EPISODE = "next_epi";
 export const SKIP_ADS = "skip_ads";
 export const HOTSTAR_SKIP_INTRO = "hotstar_skip_intro";
-export const HOTSTAR_NEXT_EPISODE = "hotstar_next_epi"
+export const HOTSTAR_NEXT_EPISODE = "hotstar_next_epi";
 
 export const LOADING_TEXT = "Skipping...";
 
 export const NETFLIX = "netflix";
 export const PRIME = "prime";
 export const HOTSTAR = "hotstar";
+export const JIOCINEMA = "jiocinema";
 
 export const i18nMap = {
   en_US: {
