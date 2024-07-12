@@ -5,8 +5,8 @@
   "version": "1.1.1",
   "description": "Auto Skip Intro, Recaps for Prime, Netflix, JioCinema and OTTs",
   "icons": {
-    "16": "src/assets/512.png",
-    "48": "src/assets/512.png"
+    "16": "src/assets/icon16.png",
+    "48": "src/assets/icon48.png"
   },
   "content_scripts": [
     {
@@ -539,8 +539,8 @@
   },
   "action": {
     "default_icon": {
-      "19": "src/assets/512.png",
-      "38": "src/assets/512.png"
+      "19": "src/assets/icon16.png",
+      "38": "src/assets/icon48.png"
     },
     "default_title": "Auto Skip Intro, Recaps for Prime, Netflix and OTTs",
     "default_popup": "src/popup.html"
