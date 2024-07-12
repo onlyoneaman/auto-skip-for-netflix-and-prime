@@ -1,4 +1,4 @@
-# Auto Skipper 
+# Auto Skipper
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/users/dempbimengdgfdahpccphckokknnappl?color=g&label=Chrome%20Store%20Users)](https://chrome.google.com/webstore/detail/netflix-prime-ott-auto-sk/dempbimengdgfdahpccphckokknnappl)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dempbimengdgfdahpccphckokknnappl)
@@ -27,7 +27,7 @@ https://chrome.google.com/webstore/detail/netflix-prime-ott-auto-sk/dempbimengdg
 
 ## Development
 
-clone the repo and run `npm run build:dev`, make changes and test it in chrome dev mode.
+Clone the repo and run `npm run build:dev` or `yarn run build:dev`, make changes and test it in chrome dev mode.
 I'll be delighted to receive a PR.
 
 ```
@@ -39,6 +39,13 @@ or
 ```
 yarn run build:dev
 ```
+
+### Updates for Chrome Extension Guidelines Compliance
+
+- Updated the `manifest.json` file to use Manifest V3.
+- Added necessary permissions and content security policy.
+- Updated icons to use appropriately sized images (`icon16.png` and `icon48.png`).
+- Created a `secret_key.js` placeholder for the build process.
 
 ## Add your national language (Prime)
 
@@ -76,5 +83,5 @@ The data is totally anonymous, you can also verify the same in the network tab.
 
 ## Feedback
 
-If you like the extension and it solves your problem please leave a rating and review on the chrom web store.
+If you like the extension and it solves your problem please leave a rating and review on the chrome web store.
 Hit me up at `2000.aman.sinha@gmail.com` to say, Hi!
