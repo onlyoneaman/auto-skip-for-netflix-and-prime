@@ -4,9 +4,18 @@
   "author": "Aman Kumar",
   "version": "1.1.1",
   "description": "Auto Skip Intro, Recaps for Prime, Netflix, JioCinema and OTTs",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://*.netflix.com/*",
+    "https://*.primevideo.com/*"
+  ],
   "icons": {
     "16": "src/assets/icon16.png",
     "48": "src/assets/icon48.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "content_scripts": [
     {
@@ -526,8 +535,7 @@
         "*://amazon.za/*",
         "*://*.amazon.zm/*",
         "*://amazon.zm/*",
-        "*://*.amazon.zw/*",
-        "*://amazon.zw/*"
+        "*://*.amazon.zw/*"
       ],
       "js": ["dist/bundle_new.js"],
       "run_at": "document_end",
